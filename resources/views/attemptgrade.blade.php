@@ -22,55 +22,55 @@
         <label>Student: <strong>{{ $student_1 }}</strong></label>
         <div class="col col-md-4">
             <label>Midterm Grade</label>
-            <input type="number" name="s1_midterm" class="form-control">
+            <input type="number" name="s1_midterm" class="form-control" required min="0" max="100">
         </div>
         <div class="col col-md-4">
             <label>Finals Grade</label>
-            <input type="number" name="s1_finals" class="form-control">
+            <input type="number" name="s1_finals" class="form-control" required min="0" max="100">
         </div>
     </div>
     <div class="row">
         <label>Student: <strong>{{ $student_2 }}</strong></label>
         <div class="col col-md-4">
             <label>Midterm Grade</label>
-            <input type="number" name="s1_midterm" class="form-control">
+            <input type="number" name="s2_midterm" class="form-control" required min="0" max="100" >
         </div>
         <div class="col col-md-4">
             <label>Finals Grade</label>
-            <input type="number" name="s1_finals" class="form-control">
+            <input type="number" name="s2_finals" class="form-control" required min="0" max="100">
         </div>
     </div>
     <div class="row">
         <label>Student: <strong>{{ $student_3 }}</strong></label>
         <div class="col col-md-4">
             <label>Midterm Grade</label>
-            <input type="number" name="s1_midterm" class="form-control">
+            <input type="number" name="s3_midterm" class="form-control" required min="0" max="100">
         </div>
         <div class="col col-md-4">
             <label>Finals Grade</label>
-            <input type="number" name="s1_finals" class="form-control">
+            <input type="number" name="s3_finals" class="form-control" required min="0" max="100">
         </div>
     </div>
     <div class="row">
         <label>Student: <strong>{{ $student_4 }}</strong></label>
         <div class="col col-md-4">
             <label>Midterm Grade</label>
-            <input type="number" name="s1_midterm" class="form-control">
+            <input type="number" name="s4_midterm" class="form-control" required min="0" max="100">
         </div>
         <div class="col col-md-4">
             <label>Finals Grade</label>
-            <input type="number" name="s1_finals" class="form-control">
+            <input type="number" name="s4_finals" class="form-control" required min="0" max="100">
         </div>
     </div>
     <div class="row">
         <label>Student: <strong>{{ $student_5 }}</strong></label>
         <div class="col col-md-4">
             <label>Midterm Grade</label>
-            <input type="number" name="s1_midterm" class="form-control">
+            <input type="number" name="s5_midterm" class="form-control" required min="0" max="100">
         </div>
         <div class="col col-md-4">
             <label>Finals Grade</label>
-            <input type="number" name="s1_finals" class="form-control">
+            <input type="number" name="s5_finals" class="form-control" required min="0" max="100">
         </div>
     </div>
     <hr />
@@ -78,8 +78,7 @@
         <button class="btn btn-primary btn-lg" type="submit">
             Compute Average Attempt Grades
         </button>
-
-</div>
+    </div>
 </form>
 </div>
 
